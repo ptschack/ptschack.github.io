@@ -67,6 +67,7 @@ p {
 	margin: 0 auto 0 auto;
 	height: 100%;
 	color: #ffffff93;
+	height:100%;
 }
 
 .footer {
@@ -96,4 +97,22 @@ a:hover {
 
 h1 {
 	color: #FFFFFF;
+}
+
+.video-container {
+	margin:auto;
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	width:70%;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:70vh;
 }
